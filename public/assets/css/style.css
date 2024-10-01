@@ -1,0 +1,508 @@
+h1 {
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 0%;
+}
+
+h5 {
+    font-size: 16px;
+    margin-bottom: 0%;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 0%;
+
+}
+
+/* iPhone 14 Pro Max */
+@media only screen and (max-width: 430px) {
+    h1 {
+        font-size: 24px;
+        margin-bottom: 0%;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 0%;
+    }
+
+    h3 {
+        font-size: 16px;
+        margin-bottom: 0%;
+    }
+
+    h4 {
+        font-size: 14px;
+        margin-bottom: 0%;
+    }
+
+    h5 {
+        font-size: 10px;
+        margin-bottom: 0%;
+    }
+
+    p {
+        font-size: 8px;
+        margin-bottom: 0%;
+    }
+
+    .social-media {
+        font-size: 10px !important;
+    }
+
+    .yt-idmetafora {
+        margin-top: 30px;
+        width: 300px;
+        height: auto;
+    }
+
+    .text-idmetafora {
+        margin-top: 30px;
+    }
+
+    .why-us img {
+        width: 50px !important;
+    }
+
+    .what-we-do img {
+        width: 400px !important;
+    }
+
+    .step-business .carousel-item {
+        padding: 10px !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .step-business .carousel-item img {
+        width: 35px !important;
+        display: block !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .request {
+        width: 150px;
+        padding: 0 !important;
+    }
+
+    .request .req {
+        width: 15px;
+    }
+
+    .business-img {
+        width: 200px !important;
+    }
+
+    .how-journey .journey-step {
+        padding: 6px !important;
+        margin: 10px !important;
+    }
+
+    .how-journey img {
+        max-width: 50% !important;
+    }
+
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar .nav-link.dropdown-toggle:focus,
+.navbar .nav-link.dropdown-toggle:active,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-outline {
+    color: #0078AE;
+    border-color: #0078AE;
+}
+
+.btn-outline:hover {
+    background-color: #0078AE;
+    color: white;
+}
+
+.footer {
+    background-color: #0078AE;
+    color: white;
+    padding-top: 20px;
+}
+
+.footer .social-media {
+    font-size: 14px;
+}
+
+.bg-banner {
+    background-image: url('../img/bg/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+.yt-idmetafora {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.client-logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.why-us {
+    background-color: #0078AE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.why-us img {
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+.achievement {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.achievement .achievement-item {
+    align-items: center;
+    display: flex;
+    justify-content: start;
+}
+
+.achievement .achievement-item-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.achievement .achievement-item img {
+    max-width: 20%;
+    height: auto;
+}
+
+.achievement .achievement-item-right img {
+    max-width: 20%;
+    height: auto;
+}
+
+.achievement .achievement-text {
+    color: black;
+    text-align: center;
+}
+
+.what-we-do {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.what-we-do img {
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.step-business {
+    background-color: #0078AE;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.step-business .carousel-item img {
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-business .carousel-inner {
+    justify-content: center;
+    align-items: center;
+}
+
+.step-business .carousel-item {
+    background-color: #F47B20;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.what-can-you-request {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.request {
+    background-color: #F47B20;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.req {
+    width: 50px;
+}
+
+.business-img {
+    width: 500px;
+}
+
+.how-journey {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-journey {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.how-journey .journey-step {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 30px;
+}
+
+.how-journey .journey-step:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.how-journey img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.ceo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.text-ceo {
+    justify-content: center;
+    align-items: center;
+}
+
+.the-culture {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.our-journey {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #0078AE;
+    color: white;
+}
+
+.our-journey img {
+    width: 300px;
+}
+
+.open-button {
+    background-color: transparent;
+    cursor: pointer;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+
+.open-button img {
+    width: 40px;
+}
+
+.open-button:hover {
+    transform: scale(1.1);
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px #00000033;
+    z-index: 9;
+}
+
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow: hidden;
+}
+
+.chat-header {
+    background: linear-gradient(135deg, #0084ff, #00d2ff);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    color: white;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.message-container {
+    padding: 15px;
+    background-color: white;
+    flex-grow: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.message-container::-webkit-scrollbar-thumb {
+    background-color: #0084ff;
+    border-radius: 10px;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+}
+
+.message.user {
+    justify-content: flex-end;
+}
+
+.message-bubble {
+    max-width: 70%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #e0e0e0;
+    position: relative;
+    font-size: 14px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.message-bubble:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.message.user .message-bubble {
+    background-color: #0084ff;
+    color: white;
+}
+
+.form-chatbot {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 15px 15px;
+}
+
+.form-chatbot textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.207);
+    background-color: #f1f1f1;
+    resize: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.form-chatbot textarea:focus {
+    background-color: white;
+    border-color: #0084ff;
+}
+
+.form-chatbot .btn-send {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #0084ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.form-chatbot .btn-send:hover {
+    background-color: #005bb5;
+}
+
+.message-bubble::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent #e0e0e0 transparent transparent;
+}
+
+.message.user .message-bubble::before {
+    left: auto;
+    right: -10px;
+    border-color: transparent transparent transparent #0084ff;
+}
